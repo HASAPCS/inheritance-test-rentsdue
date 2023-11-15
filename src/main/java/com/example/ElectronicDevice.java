@@ -24,6 +24,10 @@ public class ElectronicDevice {
         this.model=newModel;
     } 
 
+    public String getDeviceInfo() {
+        return "Brand: "+this.brand+", "+"Model: "+this.model;
+    }
+
     // OPTIONALLY implement the required methods to pass the BonusTest.
 
 }
